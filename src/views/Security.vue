@@ -363,7 +363,8 @@ export default {
         top: 77px;
       }
       img {
-        width: 419px;
+        width: 370px;
+        object-fit: contain;
         height: 209px;
         position: absolute;
         left: 50%;
