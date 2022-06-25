@@ -1,0 +1,30 @@
+$content-width:1200px;
+$bottom-padding:50px;
+
+.pubic-img-scale {
+  img {
+    transition: all 0.6s;
+
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.pubic-box-scale {
+  // transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+/*@mixin card-scale {
+    transform: scale(1.1);
+    transition: all 0.6s;
+    
+}
+*/
