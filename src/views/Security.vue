@@ -310,7 +310,7 @@ export default {
       width: 800px;
       height: 780px;
       margin: 0 auto;
-      margin-bottom: 30px;
+      margin-bottom:30px;
       position: relative;
       span {
         display: flex;
@@ -327,12 +327,13 @@ export default {
         position: absolute;
       }
       .text1 {
+        top:0px;
         left: 50%;
         transform: translateX(-50%);
       }
       .text2 {
         right: 116px;
-        top: 77px;
+        top: 82px;
       }
       .text3 {
         right: 0;
@@ -340,19 +341,19 @@ export default {
       }
       .text4 {
         right: 37px;
-        bottom: 180px;
+        bottom: 170px;
       }
       .text5 {
-        right: 208px;
+        right: 210px;
         bottom: 20px;
       }
       .text6 {
-        left: 210px;
+        left: 223px;
         bottom: 20px;
       }
       .text7 {
         left: 67px;
-        bottom: 180px;
+        bottom: 170px;
       }
       .text8 {
         left: 0;
@@ -360,7 +361,7 @@ export default {
       }
       .text9 {
         left: 118px;
-        top: 77px;
+        top: 82px;
       }
       img {
         width: 370px;
