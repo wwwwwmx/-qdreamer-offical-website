@@ -73,10 +73,13 @@ export default {
      padding: 30px 20px 10px;
    }
    .el-dialog__body{
-     padding: 20px 30px ;
+     padding: 20px 30px 30px ;
+   }
+   .el-dialog__title{
+    font-size:22px;
    }
     .require-title {
-      font-size: 18px;
+      font-size: 22px;
       font-weight: 400;
       color: #333333;
       margin-bottom: 13px;
