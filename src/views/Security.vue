@@ -44,7 +44,7 @@
         data-aos-anchor-placement="top-bottom"
       >
         <span class="text1">8麦<br />双环阵列</span>
-        <span class="text2">4k摄像头</span>
+        <span class="text2">4K摄像头</span>
         <span class="text3">超远距人声<br />分离与追踪</span>
         <span class="text4">声随影动</span>
         <span class="text5">声随人动</span>
@@ -464,12 +464,12 @@ export default {
           flex-direction: column;
           justify-content: center;
           .title {
-            font-size: 30px;
+            font-size: 32px;
             font-weight: 400;
             margin-bottom: 12px;
           }
           .text {
-            font-size: 20px;
+            font-size: 23px;
             font-weight: 400;
           }
         }

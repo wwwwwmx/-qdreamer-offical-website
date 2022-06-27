@@ -4,7 +4,7 @@
       :title="popup.title"
       class="box"
       :visible.sync="isShow"
-      width="630px"
+      width="680px"
       :close-on-click-modal="true"
       @closed="onClose"
       @close="beginClose"
@@ -59,18 +59,28 @@ export default {
   destroyed() {},
 };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 .invite-father {
   .box {
     font-size: 22px;
     font-weight: bold;
     color: #474747;
     text-align: center;
+    .el-dialog{
+       border-radius: 8px;
+    }
+   .el-dialog__header{
+     padding: 30px 20px 10px;
+   }
+   .el-dialog__body{
+     padding: 20px 30px ;
+   }
     .require-title {
       font-size: 18px;
       font-weight: 400;
       color: #333333;
       margin-bottom: 13px;
+      // padding:0px;
       text-align: left;
     }
     .require-text {
@@ -81,7 +91,7 @@ export default {
       color: #666666;
       margin-bottom: 30px;
       line-height: 30px;
-      width: 600px;
+      // width: 600px;
       white-space: pre-wrap;
       text-align: left;
     }
@@ -99,7 +109,7 @@ export default {
       font-weight: 400;
       color: #666666;
       line-height: 30px;
-      width: 600px;
+      // width: 600px;
       white-space: pre-wrap;
       text-align: left;
     }

@@ -507,11 +507,14 @@ export default {
     }
     span {
       width: 585px;
+      height:252px;
       font-size: 28px;
       font-weight: 400;
       color: #333333;
       line-height: 45px;
       letter-spacing: 1px;
+      margin-top:19px;
+      margin-bottom: 36px;
     }
   }
   .banking-points {
