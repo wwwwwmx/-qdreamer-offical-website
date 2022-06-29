@@ -464,7 +464,7 @@ export default {
           flex-direction: column;
           justify-content: center;
           .title {
-            font-size: 32px;
+            font-size: 30px;
             font-weight: 400;
             margin-bottom: 12px;
           }

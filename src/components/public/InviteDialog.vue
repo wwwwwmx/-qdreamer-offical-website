@@ -11,9 +11,9 @@
       @open="getScrollHeight"
     >
       <div class="require-title">【岗位要求】</div>
-      <div class="require-text">{{ popup.text1 }}</div>
+      <div class="require-text" v-html="popup.text1"></div>
       <div class="content-title">【岗位内容】</div>
-      <div class="content-text">{{ popup.text2 }}</div>
+      <div class="content-text" v-html="popup.text2"></div>
     </el-dialog>
   </div>
 </template>
@@ -25,6 +25,7 @@ export default {
       isShow: false,
       popup: "",
       winY: null,
+      // false: false
     };
   },
   methods: {
@@ -79,7 +80,7 @@ export default {
     font-size:22px;
    }
     .require-title {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 400;
       color: #333333;
       margin-bottom: 13px;
@@ -89,7 +90,6 @@ export default {
     .require-text {
       margin-left:7px;
       font-size: 18px;
-      font-family: Arial;
       font-weight: 400;
       color: #666666;
       margin-bottom: 30px;
@@ -97,6 +97,9 @@ export default {
       // width: 600px;
       white-space: pre-wrap;
       text-align: left;
+      span{
+        font-family: Arial;
+      }
     }
     .content-title {
       font-size: 18px;
@@ -108,13 +111,15 @@ export default {
     .content-text {
       margin-left:7px;
       font-size: 18px;
-      font-family: Arial;
       font-weight: 400;
       color: #666666;
       line-height: 30px;
       // width: 600px;
       white-space: pre-wrap;
       text-align: left;
+      span{
+         font-family: Arial;
+      }
     }
   }
 }

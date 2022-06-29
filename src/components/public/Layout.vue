@@ -16,7 +16,7 @@
       <div class="contactus">
         <img class="M" src="~assets/img/public/M.png" alt />
         <div class="text-father" @click="handleShow()" id="in">
-          <span class="text">点我联系</span>
+          <span class="text">商务合作</span>
         </div>
         <div class="triangle1" v-show="isShow"></div>
         <div class="click-father" v-show="isShow">
